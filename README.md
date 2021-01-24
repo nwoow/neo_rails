@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# rails_test
 
-* Ruby version
+To run the code use these command:
 
-* System dependencies
+clone the code and run this command in Account folder:
 
-* Configuration
+     docker-compose up -d
 
-* Database creation
+and check the docker container:
 
-* Database initialization
+    docker ps
+    docker exec -it <container_id> /bin/bash
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+And then run these commands inside the container:
 
-* Deployment instructions
+    rails db:create
+    rails db:migrate
 
-* ...
+
+
+You can repeat the same process for Customer 
+
+To open the url simplye use:
+
+    localhost:9000
+
+
+
+
+
