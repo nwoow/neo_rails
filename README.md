@@ -5,7 +5,11 @@
 
 To run the code use these command:
 
-clone the code and run this command in Account folder:
+To build the image:
+
+      docker-compose build .
+
+clone the code and run this command inside root directory:
 
      docker-compose up -d
 
@@ -20,9 +24,6 @@ And then run these commands inside the container:
     rails db:create
     rails db:migrate
 
-
-
-You can repeat the same process for Customer 
 
 To open the url simplye use:
 
